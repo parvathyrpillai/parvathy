@@ -1,0 +1,97 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#CDD7D8"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <TextView
+       android:text="NAME"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+    <EditText
+        android:drawableLeft="@drawable/username"
+        android:layout_margin="5dp"
+        android:id="@+id/name"
+        android:hint="enter your username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="ADDRESS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:drawableLeft="@drawable/address"
+        android:layout_margin="5dp"
+        android:id="@+id/address"
+        android:hint="enter your address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="PHONE NUMBER"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:drawableLeft="@drawable/phoneno"
+        android:layout_margin="5dp"
+        android:id="@+id/phonenumber"
+        android:hint="enter your phone no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="EMAIL ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:drawableLeft="@drawable/email"
+        android:layout_margin="5dp"
+        android:id="@+id/emailid"
+        android:hint="enter your email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="USERNAME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:drawableLeft="@drawable/username"
+        android:layout_margin="5dp"
+        android:id="@+id/username"
+        android:hint="enter your username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="PASSWORD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:drawableLeft="@drawable/password"
+        android:layout_margin="5dp"
+        android:id="@+id/password"
+        android:hint="enter your password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="CONFIRM PASSWORD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:drawableLeft="@drawable/confirmpassword"
+        android:layout_margin="5dp"
+        android:id="@+id/confirmpasswrd"
+        android:hint="enter your confirm password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="REGISTER"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+ <androidx.appcompat.widget.AppCompatButton
+  android:text="Backtologin"
+     android:id="@+id/Backtologin"
+  android:layout_margin="5dp"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
